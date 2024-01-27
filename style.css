@@ -23,9 +23,13 @@ body {
 }
 .grid-item-1 {
   /* grid-area: content; */
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 .grid-item-2 {
   /* grid-area: sidebar; */
+  grid-row-start: 2;
+  grid-row-end: 5;
 }
 .grid-item-5 {
   /* grid-area: header; */
