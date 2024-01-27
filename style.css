@@ -11,10 +11,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(50px, auto);
   gap: 20px;
-  grid-template-areas:
+  /* grid-template-areas:
     "header header"
     "sidebar content"
-    "sidebar content";
+    "sidebar content"; */
 }
 
 .grid-item {
@@ -22,13 +22,13 @@ body {
   border: 1px solid rgb(196, 156, 0);
 }
 .grid-item-1 {
-  grid-area: header;
+  /* grid-area: content; */
 }
 .grid-item-2 {
-  grid-area: sidebar;
+  /* grid-area: sidebar; */
 }
 .grid-item-5 {
-  grid-area: content;
+  /* grid-area: header; */
 }
 
 .grid-item:nth-child(n) {
